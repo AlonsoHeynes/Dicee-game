@@ -4,8 +4,8 @@ let randomNumber2 = Math.floor(Math.random()*6) + 1;
 console.log(randomNumber1);
 console.log(randomNumber2);
 
-let randomDiceImage1 = document.getElementsByTagName('img')[0].setAttribute('src', 'docs/images/dice' + randomNumber1 + '.png');
-let randomDiceImage2 = document.getElementsByTagName('img')[1].setAttribute('src', 'docs/images/dice' + randomNumber2 + '.png');
+let randomDiceImage1 = document.getElementsByTagName('img')[0].setAttribute('src', 'images/dice' + randomNumber1 + '.png');
+let randomDiceImage2 = document.getElementsByTagName('img')[1].setAttribute('src', 'images/dice' + randomNumber2 + '.png');
 
 let text = document.getElementsByTagName('h1')[0];
 let textPlayer1 = document.getElementsByTagName('p')[0];
