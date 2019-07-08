@@ -7,11 +7,11 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+  margin-top: 100px;
 }
 
 body {
-  background-color: #141414;
+  background-color: #183661;
 }
 
 h1 {
@@ -37,5 +37,17 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+.winner {
+  animation: scale 1.5s .2s ease-in-out infinite;
+}
+
+@keyframes scale {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
